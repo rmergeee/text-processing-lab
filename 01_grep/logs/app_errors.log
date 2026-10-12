@@ -1,0 +1,23 @@
+2026-10-12 08:00:01.102 [INFO] [app.server] Starting worker process on pid=4021
+2026-10-12 08:00:02.154 [INFO] [app.db] Connected to PostgreSQL pool at 10.0.0.50:5432
+2026-10-12 08:05:12.330 [DEBUG] [app.auth] Token validation took 1.2ms for user_id=402
+2026-10-12 08:12:44.901 [WARNING] [app.cache] Redis cache miss for key 'cache:users:active'
+2026-10-12 08:15:20.445 [ERROR] [app.payments] [trace_id=a8f0-1234-bc] Payment gateway timeout after 5000ms
+Traceback (most recent call last):
+  File "/app/services/payment.py", line 142, in process_transaction
+    response = requests.post(PAYMENT_GW_URL, json=payload, timeout=5)
+  File "/usr/local/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request('post', url, data=data, json=json, **kwargs)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='gw.payfast.internal', port=443): Max retries exceeded
+2026-10-12 08:15:21.002 [INFO] [app.payments] [trace_id=a8f0-1234-bc] Rolling back order #88492
+2026-10-12 08:20:00.110 [DEBUG] [app.metrics] Flushed 140 metrics to Prometheus
+2026-10-12 08:35:10.512 [ERROR] [app.db] [trace_id=db-9921-ff] Deadlock detected during concurrent update
+Traceback (most recent call last):
+  File "/app/services/inventory.py", line 88, in reserve_stock
+    cursor.execute("UPDATE items SET stock = stock - %s WHERE id = %s", (qty, item_id))
+psycopg2.errors.DeadlockDetected: deadlock detected
+DETAIL: Process 4021 waits for ExclusiveLock on tuple (14, 5); blocked by process 4028.
+2026-10-12 08:35:11.004 [WARNING] [app.inventory] Retrying reserve_stock for item_id=1409 (attempt 1/3)
+2026-10-12 08:50:33.782 [CRITICAL] [app.storage] Out of disk space on mount /mnt/attachments! (99.8% used)
+2026-10-12 08:50:34.001 [ERROR] [app.upload] Failed to write file /mnt/attachments/invoice_99.pdf: No space left on device
+2026-10-12 09:00:15.220 [INFO] [app.cleanup] Deleted 1420 expired session records

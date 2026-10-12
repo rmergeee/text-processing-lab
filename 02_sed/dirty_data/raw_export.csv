@@ -1,0 +1,9 @@
+id , first_name , last_name , email , birth_date , salary 
+1 ,  John  , Doe , john.doe@example.com , 14/05/1990 , 3200 
+2 , Jane ,  Smith , jane.smith@company.org , 22/11/1985 , 4500 
+
+3 ,  Oleg , Kovalenko , oleg.k@work.ua , 08/02/1994 , 2800 
+4 , Maria , Melnyk  , maria.m@domain.com , 30/09/1991 , 5100 
+5 ,  Alex , Brown , alex.b@example.net , 19/07/1988 , 3900 
+
+6 , Kateryna , Shevchenko , katya.sh@dev.ua , 01/12/1996 , 4200 

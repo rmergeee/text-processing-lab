@@ -1,0 +1,13 @@
+ORD_ID CLIENT CATEGORY QTY PRICE STATUS DATE
+ORD-101 ACME_Corp Hardware 5 350.00 Completed 2026-09-01
+ORD-102 Globex Software 12 49.99 Completed 2026-09-02
+ORD-103 Initech Hardware 2 1200.00 Pending 2026-09-03
+ORD-104 Umbrella Support 1 2500.00 Completed 2026-09-03
+ORD-105 ACME_Corp Software 20 89.00 Completed 2026-09-04
+ORD-106 Stark_Ind Hardware 8 750.00 Cancelled 2026-09-05
+ORD-107 Wayne_Ent Hardware 15 1100.00 Completed 2026-09-06
+ORD-108 Cyberdyne Support 4 1500.00 Completed 2026-09-07
+ORD-109 Globex Hardware 3 450.00 Pending 2026-09-08
+ORD-110 Initech Software 50 25.00 Completed 2026-09-09
+ORD-111 ACME_Corp Support 2 800.00 Completed 2026-09-10
+ORD-112 Stark_Ind Software 10 199.99 Completed 2026-09-11

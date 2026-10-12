@@ -1,0 +1,35 @@
+<div class="user-profile" id="usr_8921">
+    <h2 class="name">Олександр Коваленко</h2>
+    <p class="bio">DevOps Engineer interested in Kubernetes, Linux kernel, and automated pipelines.</p>
+    <div class="contact-info">
+        <span class="email">Email: <a href="mailto:oleksandr.k@cloud-tech.ua">oleksandr.k@cloud-tech.ua</a></span>
+        <span class="phone">Tel: +380 (50) 444-55-66</span>
+        <span class="location">Kyiv, Ukraine</span>
+    </div>
+    <div class="keys">
+        <!-- SECRET TOKEN: do not leak! -->
+        <code class="api-token">sk_live_984712098471298471209384bcda710</code>
+        <code class="jwt">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c</code>
+    </div>
+</div>
+
+The the quick brown fox jumps jumps over the lazy dog dog.
+Notice that duplicate duplicate words words often happen in draft texts.
+
+Ціни на товари в прайсі:
+- Сервер Dell PowerEdge: $3,450.00 (або зі знижкою $3200)
+- Маршрутизатор MikroTik: €189.50
+- Комутатор Cisco 24p: 15400.00 ₴
+- Кабель Patch Cord 5m: 120 ₴
+- Підписка Cloud Storage: $19.99/mo
+- Ліцензія RedHat: 999.00 USD
+
+Системні логи та метрики:
+Memory usage: 4.8GB / 16.0GB (30%)
+Disk I/O: 120MB/s read, 45MB/s write
+Latency: 45ms, 120ms, 3.5s, 0.450s
+Network speed: 1000Mbps, 10Gbps, 54kbps
+
+Посилання у тексті:
+Знайдіть документацію за посиланням [Офіційний сайт](https://kernel.org) або в джерелі [Git Репозиторій](https://github.com/torvalds/linux).
+Також перегляньте [Внутрішній портал](http://wiki.corp.local:8000/docs/sysadmin?ref=header&lang=ua).

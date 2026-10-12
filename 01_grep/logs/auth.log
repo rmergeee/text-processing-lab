@@ -1,0 +1,110 @@
+Oct 12 00:15:01 srv-core CRON[10452]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 12 00:15:02 srv-core CRON[10452]: pam_unix(cron:session): session closed for user root
+Oct 12 01:22:10 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39420 ssh2
+Oct 12 01:22:13 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39422 ssh2
+Oct 12 01:22:15 srv-core sshd[10550]: Failed password for invalid user test from 198.51.100.42 port 39424 ssh2
+Oct 12 01:22:18 srv-core sshd[10550]: Failed password for root from 198.51.100.42 port 39426 ssh2
+Oct 12 01:22:20 srv-core sshd[10550]: Maximum authentication attempts exceeded for root from 198.51.100.42 port 39426 ssh2 [preauth]
+Oct 12 02:40:11 srv-core sshd[11200]: Accepted publickey for rost from 10.0.0.15 port 52340 ssh2: RSA SHA256:d8a9f0e1c2b3a4
+Oct 12 02:40:11 srv-core sshd[11200]: pam_unix(sshd:session): session opened for user rost(uid=1000) by (uid=0)
+Oct 12 02:45:30 srv-core sudo:     rost : TTY=pts/0 ; PWD=/home/rost ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 12 02:45:30 srv-core sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rost(uid=1000)
+Oct 12 02:45:35 srv-core sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 03:10:05 srv-core sshd[11450]: Failed password for invalid user support from 45.33.32.156 port 41200 ssh2
+Oct 12 03:10:09 srv-core sshd[11450]: Failed password for invalid user oracle from 45.33.32.156 port 41202 ssh2
+Oct 12 03:10:12 srv-core sshd[11450]: Failed password for invalid user postgres from 45.33.32.156 port 41204 ssh2
+Oct 12 04:00:01 srv-core systemd-logind[750]: New session 125 of user root.
+Oct 12 04:30:22 srv-core sshd[12010]: Accepted publickey for deploy from 172.16.5.99 port 48110 ssh2: ED25519 SHA256:88fa90bc12
+Oct 12 04:30:22 srv-core sshd[12010]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Oct 12 04:32:10 srv-core sudo:   deploy : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/docker compose pull
+Oct 12 04:35:00 srv-core sshd[12010]: pam_unix(sshd:session): session closed for user deploy
+Oct 12 05:00:00 srv-core sshd[12800]: Invalid user guest from 185.191.171.12 port 59000
+Oct 12 05:00:02 srv-core sshd[12800]: Failed password for invalid user guest from 185.191.171.12 port 59000 ssh2
+Oct 14 00:15:01 srv-core CRON[10452]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 14 00:15:02 srv-core CRON[10452]: pam_unix(cron:session): session closed for user root
+Oct 14 01:22:10 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39420 ssh2
+Oct 14 01:22:13 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39422 ssh2
+Oct 14 01:22:15 srv-core sshd[10550]: Failed password for invalid user test from 198.51.100.42 port 39424 ssh2
+Oct 14 01:22:18 srv-core sshd[10550]: Failed password for root from 198.51.100.42 port 39426 ssh2
+Oct 14 01:22:20 srv-core sshd[10550]: Maximum authentication attempts exceeded for root from 198.51.100.42 port 39426 ssh2 [preauth]
+Oct 14 02:40:11 srv-core sshd[11200]: Accepted publickey for rost from 10.0.0.15 port 52340 ssh2: RSA SHA256:d8a9f0e1c2b3a4
+Oct 14 02:40:11 srv-core sshd[11200]: pam_unix(sshd:session): session opened for user rost(uid=1000) by (uid=0)
+Oct 14 02:45:30 srv-core sudo:     rost : TTY=pts/0 ; PWD=/home/rost ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 14 02:45:30 srv-core sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rost(uid=1000)
+Oct 14 02:45:35 srv-core sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:10:05 srv-core sshd[11450]: Failed password for invalid user support from 45.33.32.156 port 41200 ssh2
+Oct 14 03:10:09 srv-core sshd[11450]: Failed password for invalid user oracle from 45.33.32.156 port 41202 ssh2
+Oct 14 03:10:12 srv-core sshd[11450]: Failed password for invalid user postgres from 45.33.32.156 port 41204 ssh2
+Oct 14 04:00:01 srv-core systemd-logind[750]: New session 125 of user root.
+Oct 14 04:30:22 srv-core sshd[12010]: Accepted publickey for deploy from 172.16.5.99 port 48110 ssh2: ED25519 SHA256:88fa90bc12
+Oct 14 04:30:22 srv-core sshd[12010]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Oct 14 04:32:10 srv-core sudo:   deploy : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/docker compose pull
+Oct 14 04:35:00 srv-core sshd[12010]: pam_unix(sshd:session): session closed for user deploy
+Oct 14 05:00:00 srv-core sshd[12800]: Invalid user guest from 185.191.171.12 port 59000
+Oct 14 05:00:02 srv-core sshd[12800]: Failed password for invalid user guest from 185.191.171.12 port 59000 ssh2
+Oct 16 00:15:01 srv-core CRON[10452]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 16 00:15:02 srv-core CRON[10452]: pam_unix(cron:session): session closed for user root
+Oct 16 01:22:10 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39420 ssh2
+Oct 16 01:22:13 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39422 ssh2
+Oct 16 01:22:15 srv-core sshd[10550]: Failed password for invalid user test from 198.51.100.42 port 39424 ssh2
+Oct 16 01:22:18 srv-core sshd[10550]: Failed password for root from 198.51.100.42 port 39426 ssh2
+Oct 16 01:22:20 srv-core sshd[10550]: Maximum authentication attempts exceeded for root from 198.51.100.42 port 39426 ssh2 [preauth]
+Oct 16 02:40:11 srv-core sshd[11200]: Accepted publickey for rost from 10.0.0.15 port 52340 ssh2: RSA SHA256:d8a9f0e1c2b3a4
+Oct 16 02:40:11 srv-core sshd[11200]: pam_unix(sshd:session): session opened for user rost(uid=1000) by (uid=0)
+Oct 16 02:45:30 srv-core sudo:     rost : TTY=pts/0 ; PWD=/home/rost ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 16 02:45:30 srv-core sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rost(uid=1000)
+Oct 16 02:45:35 srv-core sudo: pam_unix(sudo:session): session closed for user root
+Oct 16 03:10:05 srv-core sshd[11450]: Failed password for invalid user support from 45.33.32.156 port 41200 ssh2
+Oct 16 03:10:09 srv-core sshd[11450]: Failed password for invalid user oracle from 45.33.32.156 port 41202 ssh2
+Oct 16 03:10:12 srv-core sshd[11450]: Failed password for invalid user postgres from 45.33.32.156 port 41204 ssh2
+Oct 16 04:00:01 srv-core systemd-logind[750]: New session 125 of user root.
+Oct 16 04:30:22 srv-core sshd[12010]: Accepted publickey for deploy from 172.16.5.99 port 48110 ssh2: ED25519 SHA256:88fa90bc12
+Oct 16 04:30:22 srv-core sshd[12010]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Oct 16 04:32:10 srv-core sudo:   deploy : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/docker compose pull
+Oct 16 04:35:00 srv-core sshd[12010]: pam_unix(sshd:session): session closed for user deploy
+Oct 16 05:00:00 srv-core sshd[12800]: Invalid user guest from 185.191.171.12 port 59000
+Oct 16 05:00:02 srv-core sshd[12800]: Failed password for invalid user guest from 185.191.171.12 port 59000 ssh2
+Oct 18 00:15:01 srv-core CRON[10452]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 18 00:15:02 srv-core CRON[10452]: pam_unix(cron:session): session closed for user root
+Oct 18 01:22:10 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39420 ssh2
+Oct 18 01:22:13 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39422 ssh2
+Oct 18 01:22:15 srv-core sshd[10550]: Failed password for invalid user test from 198.51.100.42 port 39424 ssh2
+Oct 18 01:22:18 srv-core sshd[10550]: Failed password for root from 198.51.100.42 port 39426 ssh2
+Oct 18 01:22:20 srv-core sshd[10550]: Maximum authentication attempts exceeded for root from 198.51.100.42 port 39426 ssh2 [preauth]
+Oct 18 02:40:11 srv-core sshd[11200]: Accepted publickey for rost from 10.0.0.15 port 52340 ssh2: RSA SHA256:d8a9f0e1c2b3a4
+Oct 18 02:40:11 srv-core sshd[11200]: pam_unix(sshd:session): session opened for user rost(uid=1000) by (uid=0)
+Oct 18 02:45:30 srv-core sudo:     rost : TTY=pts/0 ; PWD=/home/rost ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 18 02:45:30 srv-core sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rost(uid=1000)
+Oct 18 02:45:35 srv-core sudo: pam_unix(sudo:session): session closed for user root
+Oct 18 03:10:05 srv-core sshd[11450]: Failed password for invalid user support from 45.33.32.156 port 41200 ssh2
+Oct 18 03:10:09 srv-core sshd[11450]: Failed password for invalid user oracle from 45.33.32.156 port 41202 ssh2
+Oct 18 03:10:12 srv-core sshd[11450]: Failed password for invalid user postgres from 45.33.32.156 port 41204 ssh2
+Oct 18 04:00:01 srv-core systemd-logind[750]: New session 125 of user root.
+Oct 18 04:30:22 srv-core sshd[12010]: Accepted publickey for deploy from 172.16.5.99 port 48110 ssh2: ED25519 SHA256:88fa90bc12
+Oct 18 04:30:22 srv-core sshd[12010]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Oct 18 04:32:10 srv-core sudo:   deploy : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/docker compose pull
+Oct 18 04:35:00 srv-core sshd[12010]: pam_unix(sshd:session): session closed for user deploy
+Oct 18 05:00:00 srv-core sshd[12800]: Invalid user guest from 185.191.171.12 port 59000
+Oct 18 05:00:02 srv-core sshd[12800]: Failed password for invalid user guest from 185.191.171.12 port 59000 ssh2
+Oct 20 00:15:01 srv-core CRON[10452]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 20 00:15:02 srv-core CRON[10452]: pam_unix(cron:session): session closed for user root
+Oct 20 01:22:10 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39420 ssh2
+Oct 20 01:22:13 srv-core sshd[10550]: Failed password for invalid user admin from 198.51.100.42 port 39422 ssh2
+Oct 20 01:22:15 srv-core sshd[10550]: Failed password for invalid user test from 198.51.100.42 port 39424 ssh2
+Oct 20 01:22:18 srv-core sshd[10550]: Failed password for root from 198.51.100.42 port 39426 ssh2
+Oct 20 01:22:20 srv-core sshd[10550]: Maximum authentication attempts exceeded for root from 198.51.100.42 port 39426 ssh2 [preauth]
+Oct 20 02:40:11 srv-core sshd[11200]: Accepted publickey for rost from 10.0.0.15 port 52340 ssh2: RSA SHA256:d8a9f0e1c2b3a4
+Oct 20 02:40:11 srv-core sshd[11200]: pam_unix(sshd:session): session opened for user rost(uid=1000) by (uid=0)
+Oct 20 02:45:30 srv-core sudo:     rost : TTY=pts/0 ; PWD=/home/rost ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 20 02:45:30 srv-core sudo: pam_unix(sudo:session): session opened for user root(uid=0) by rost(uid=1000)
+Oct 20 02:45:35 srv-core sudo: pam_unix(sudo:session): session closed for user root
+Oct 20 03:10:05 srv-core sshd[11450]: Failed password for invalid user support from 45.33.32.156 port 41200 ssh2
+Oct 20 03:10:09 srv-core sshd[11450]: Failed password for invalid user oracle from 45.33.32.156 port 41202 ssh2
+Oct 20 03:10:12 srv-core sshd[11450]: Failed password for invalid user postgres from 45.33.32.156 port 41204 ssh2
+Oct 20 04:00:01 srv-core systemd-logind[750]: New session 125 of user root.
+Oct 20 04:30:22 srv-core sshd[12010]: Accepted publickey for deploy from 172.16.5.99 port 48110 ssh2: ED25519 SHA256:88fa90bc12
+Oct 20 04:30:22 srv-core sshd[12010]: pam_unix(sshd:session): session opened for user deploy(uid=1001) by (uid=0)
+Oct 20 04:32:10 srv-core sudo:   deploy : TTY=pts/1 ; PWD=/var/www ; USER=root ; COMMAND=/usr/bin/docker compose pull
+Oct 20 04:35:00 srv-core sshd[12010]: pam_unix(sshd:session): session closed for user deploy
+Oct 20 05:00:00 srv-core sshd[12800]: Invalid user guest from 185.191.171.12 port 59000
+Oct 20 05:00:02 srv-core sshd[12800]: Failed password for invalid user guest from 185.191.171.12 port 59000 ssh2

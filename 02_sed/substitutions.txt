@@ -1,0 +1,29 @@
+# Навчальний файл для адресних заміток sed (номери рядків, діапазони, вставки)
+
+# Рядок 3: Замініть слово FOO на BAR
+Line 04: This line contains FOO and another FOO.
+Line 05: Another line with FOO.
+Line 06: Keep this FOO as FOO if not targeted.
+Line 07: Just normal line.
+Line 08: Just normal line.
+Line 09: Just normal line.
+Line 10: Just normal line.
+
+<!-- SECTION_ALPHA_START -->
+Content inside section alpha.
+Configuration parameter: active = true
+Host parameter: host = alpha.local
+Target item: replace_me_now
+<!-- SECTION_ALPHA_END -->
+
+Ordinary text in between sections.
+Nothing to change here.
+
+<!-- SECTION_BETA_START -->
+Content inside section beta.
+Configuration parameter: active = false
+Host parameter: host = beta.local
+Target item: replace_me_now
+<!-- SECTION_BETA_END -->
+
+End of document.

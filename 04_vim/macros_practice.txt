@@ -1,0 +1,31 @@
+# ==============================================================================
+# ТРЕНУВАННЯ VIM: МАКРОСИ (MACROS) ТА ПАКЕТНА ОБРОБКА
+# Завдання:
+# 1. Станьте на перший рядок зі списку нижче.
+# 2. Почніть запис макросу в регістр 'a': qa
+# 3. Перетворіть рядок у формат SQL:
+#    INSERT INTO users (username, role, city) VALUES ('john', 'admin', 'kyiv');
+# 4. Зупиніть запис: q
+# 5. Застосуйте макрос до решти рядків: 20@a (або виділіть візуально Shift-V і :norm @a)
+# ==============================================================================
+
+john admin kyiv
+maria developer lviv
+oleg devops odesa
+anna qa dnipro
+dmytro security kharkiv
+serhiy analyst poltava
+yulia pm vinnytsia
+andriy architect ternopil
+natalia designer lutsk
+ivan sysadmin sumy
+tetiana hr chernihiv
+viktor lead uzhhorod
+olena support rivne
+denys dba zaporizhzhia
+iryna manager mykolaiv
+bohdan sre cherkasy
+svitlana lead zhytomyr
+maksym frontend kyiv
+taras backend lviv
+roman devops odesa

@@ -1,0 +1,96 @@
+# ==============================================================================
+# НАВЧАЛЬНИЙ ФАЙЛ: 00_regex/patterns.txt
+# Тестові шаблони для тренування регулярних виразів (Email, Phone, IP, Date, URL тощо)
+# ==============================================================================
+
+# --- СЕКЦІЯ 1: Email адреси (валідні та невалідні) ---
+user@example.com
+john.doe@company.co.uk
+developer+test123@gmail.com
+admin_root@sub.network.org
+first.middle.last@domain.com.ua
+sales-support@tech-hub.io
+invalid_email_no_at.com
+@missingusername.com
+double..dots@domain.org
+trailing_dot@domain.com.
+user@domain_without_extension
+spaces in.email@domain.com
+valid.123_456@sub-domain.example.info
+support@192.168.1.1
+fake.email@.leadingdot.com
+robert.o'connor@enterprise.com
+
+# --- СЕКЦІЯ 2: Номери телефонів (UA, US, International) ---
++380501234567
++380 67 987 65 43
++380 (93) 111-22-33
+050-123-45-67
+044 200 10 20
++1 (555) 123-4567
+555-867-5309
++44 20 7946 0958
++49 30 123456
+0800500100
+123-45-67
+phone: +380-63-000-11-22
+invalid: +380123
+invalid: 000-00-0000000
+invalid: +1-800-CALL-ME
+
+# --- СЕКЦІЯ 3: IPv4 та IPv6 адреси ---
+127.0.0.1
+192.168.1.1
+10.0.0.254
+172.16.254.1
+8.8.8.8
+1.1.1.1
+255.255.255.255
+0.0.0.0
+# Невалідні IP:
+999.123.45.67
+192.168.1.256
+10.0.1
+1.2.3.4.5
+300.0.0.1
+192.168.01.1
+# IPv6:
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+fe80::1ff:fe23:4567:890a
+::1
+2001:db8::2:1
+invalid: 2001:xyz::1
+
+# --- СЕКЦІЯ 4: Дати (ISO, EU, US, Timestamps) ---
+2024-05-18
+2023-12-31
+1999-01-01
+2026-10-12
+15.08.2024
+01.01.2025
+31.02.2024
+07/04/2024
+12/25/2023
+2024-05-18T14:32:00Z
+2024-10-12 10:15:30.123
+# Невалідні дати:
+2024-13-40
+32.01.2023
+1999-00-15
+2024/05/18-bad
+12-34-5678
+
+# --- СЕКЦІЯ 5: URL, Домени та Хеші ---
+https://www.example.com
+https://api.github.com/repos/user/project/issues?state=open&sort=created
+http://localhost:8080/dashboard
+ftp://backup.server.internal:21/archive_2024.tar.gz
+ssh://git@github.com:22/user/repo.git
+http://example.com/search?q=regex+training&page=2#results
+https://sub-domain.test.co.uk:443/path/index.html
+invalid://wrong_protocol
+git@github.com:torvalds/linux.git
+UUID: 550e8400-e29b-41d4-a716-446655440000
+UUID: 6ba7b810-9dad-11d1-80b4-00c04fd430c8
+Hex: #ffffff, #000, #ff5733, #3B82F6, #invalid_hex
+MAC: 00:1A:2B:3C:4D:5E, 00-14-22-01-23-45, 01:23:45:67:89:ZZ

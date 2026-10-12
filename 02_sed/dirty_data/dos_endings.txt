@@ -1,0 +1,8 @@
+First line with carriage return
+Second line with trailing spaces   
+
+Third line after empty line
+
+
+Fourth line with tabs		
+Fifth and final line

@@ -1,0 +1,41 @@
+Item: Dell PowerEdge R740
+SKU: SRV-DEL-740
+Category: Server
+Stock: 8
+UnitCost: 4500.00
+Location: Rack-A1
+
+Item: Cisco Catalyst 9300
+SKU: NET-CIS-9300
+Category: Network
+Stock: 3
+UnitCost: 3200.00
+Location: Rack-A2
+
+Item: APC Smart-UPS RT 5000VA
+SKU: PWR-APC-5000
+Category: Power
+Stock: 12
+UnitCost: 1850.00
+Location: Floor-B
+
+Item: Ubiquiti UniFi Pro AP
+SKU: NET-UBI-PRO
+Category: Network
+Stock: 25
+UnitCost: 199.00
+Location: Storage-C
+
+Item: HP ProLiant DL380 Gen10
+SKU: SRV-HP-380
+Category: Server
+Stock: 2
+UnitCost: 5100.00
+Location: Rack-A3
+
+Item: Synology RackStation RS3621xs+
+SKU: STR-SYN-3621
+Category: Storage
+Stock: 4
+UnitCost: 4100.00
+Location: Rack-B1

@@ -1,0 +1,21 @@
+{
+  "app_name": "CoreService",
+  "version": "1.4.2",
+  "environment": "staging",
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "workers": 4,
+    "debug": true
+  },
+  "database": {
+    "host": "db.internal.net",
+    "port": 5432,
+    "name": "staging_db",
+    "pool_size": 20
+  },
+  "logging": {
+    "level": "DEBUG",
+    "format": "json"
+  }
+}

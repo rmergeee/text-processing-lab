@@ -1,0 +1,30 @@
+# Речення для тренування складних правил: lookahead, lookbehind, жадібності (greedy/lazy), груп
+
+# --- Тест паролів (Lookaheads: мінімум 1 велика літера, 1 цифра, 1 спецсимвол, довжина >= 8) ---
+Password123!        # ВАЛІДНИЙ
+alllowercase        # НЕВАЛІДНИЙ (нема великих, цифр, символів)
+NOLOWERCASE123!     # НЕВАЛІДНИЙ (нема маленьких)
+NoSpecial123        # НЕВАЛІДНИЙ (нема спецсимволу)
+Short1!             # НЕВАЛІДНИЙ (менше 8 символів)
+Str0ng!Passw0rd2024 # ВАЛІДНИЙ
+Admin#2026Secure    # ВАЛІДНИЙ
+
+# --- Lookaround для цін та валют ---
+The total cost was $150 yesterday, but today it is $230.
+I bought 5 apples for $5 and 3 oranges for $4.50.
+Points earned: 150 points, 230 score, 500 bonus.
+(Завдання: виділити тільки суми, що йдуть після $, але без самого знака $)
+(Завдання: виділити числові значення, після яких стоїть слово 'points')
+
+# --- Контекстні слова (Positive/Negative Lookbehind/Lookahead) ---
+We bought an Apple iPhone and an Apple MacBook.
+He likes drinking apple juice every morning.
+The Big Apple is a nickname for New York City.
+Look at that green pineapple on the table.
+(Завдання: знайти слово 'Apple' лише коли воно позначає бренд, а не сік чи ананас)
+
+# --- Жадібність квантифікаторів (Greedy vs Lazy) ---
+<div>Перший блок</div> і <div>Другий блок</div> та <span>Третій блок</span>
+"Цитата 1" а між ними слова "Цитата 2" і ще "Цитата 3"
+(item1) + (item2) * (item3)
+(Завдання: витягти вміст окремих блоків div, а не весь рядок від першого <div> до останнього </div>)
